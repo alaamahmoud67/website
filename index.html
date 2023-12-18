@@ -1,0 +1,324 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<!-- talwind -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/tw-elements.min.css" />
+    <script src="https://cdn.tailwindcss.com/3.3.0"></script>
+    <script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                fontFamily: {
+                    sans: ["Roboto", "sans-serif"],
+                    body: ["Roboto", "sans-serif"],
+                    mono: ["ui-monospace", "monospace"],
+                },
+            },
+            corePlugins: {
+                preflight: false,
+            },
+        };
+    </script>
+<!--  -->
+</head>
+<body>
+
+   
+     <header class="header">
+       
+        <a href="" class="logo"><img src="img/logo-removebg.png" alt=""></a>
+        <nav class="navbar">
+            <a href="#home"><i class="fa-solid fa-dumbbell"></i>Latest offers</a>
+            <a href="#vehicles"><i class="fa-solid fa-users-viewfinder"></i>top 3</a>
+            <a href="#services"><i class="fa-solid fa-ranking-star"></i>Appointments</a>
+            <a href="#featured"><i class="fa-regular fa-calendar-check"></i>featured</a>
+            
+        </nav>
+        <div id="login-btn">
+            <button class="btn"> <i class="fa-solid fa-hand-peace"></i>login</button>
+    
+        </div>
+         <div id="menu-btn" class="fas fa-bars">
+        </div>
+<!-- <div class="fas fa-bars" id="menu-bar"></div> -->
+      
+    </header> 
+    <!-- header end -->
+    <!-- login -->
+
+  <!--  -->
+   
+
+<!--  -->
+
+<!--  -->
+
+<!-- TW Elements is free under AGPL, with commercial license required for specific uses. See more details: https://tw-elements.com/license/ and contact us for queries at tailwind@mdbootstrap.com -->
+<div id="carouselExampleCaptions" class="relative" data-te-carousel-init data-te-ride="carousel">
+    <!--Carousel indicators-->
+    <div class="absolute  ab  z-[2]  list-none  p-0 w-full  "
+        data-te-carousel-indicators>
+        <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="0" data-te-carousel-active
+            class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent text-white bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+            aria-current="true" aria-label="Slide 1"><p class="one"><span>1</span>bodybnilding</p></button>
+        <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="1"
+            class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+            aria-label="Slide 2"><p class="tow"><span>2</span>cardio</p></button>
+        <button type="button" data-te-target="#carouselExampleCaptions" data-te-slide-to="2"
+            class="mx-[3px] box-content h-[3px] w-[30px] flex-initial cursor-pointer border-0 border-y-[10px] border-solid border-transparent bg-white bg-clip-padding p-0 -indent-[999px] opacity-50 transition-opacity duration-[600ms] ease-[cubic-bezier(0.25,0.1,0.25,1.0)] motion-reduce:transition-none"
+            aria-label="Slide 3"><p class="three"><span>3</span>kickboxing</p></button>
+    </div>
+
+    <!--Carousel items-->
+    <div class="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
+        <!--First item-->
+        <div class="relative float-left di -mr-[100%] w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-te-carousel-active data-te-carousel-item style="backface-visibility: hidden">
+            <img src="img/slide1.jpg" class="block w-full" alt="..." />
+            <div class="absolute  pra    text-white ">
+                
+                <h2 class="">let's be the hero  in your life !!</h2>
+                <p>Go to the gym and start training, and see the difference  that will happen in your body and in <br>
+                    your life. The gym is the
+                    beginning of the path to success , so do not hesitate and start now</p>
+                <button class="btn">learn more</button>
+            </div>
+                        <div class="hn"></div>
+
+        </div>
+        <!--Second item-->
+        <div class="relative float-left -mr-[100%] di hidden w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-te-carousel-item style="backface-visibility: hidden">
+            <img src="img/slide3.jpg" class="block w-full" alt="..." />
+            <div class="absolute  pra  py-5  text-white ">
+                <h2 class="">let's be the hero in your life !!</h2>
+                <p>Go to the gym and start training, and see the difference that will happen in your body and in <br>
+                    your life. The gym is the
+                    beginning of the path to success , so do not hesitate and start now</p>
+                <button class="btn">learn more</button>
+            </div>
+            <div class="hn"></div>
+
+        </div>
+        <!--Third item-->
+        <div class="relative float-left -mr-[100%] hidden di w-full transition-transform duration-[600ms] ease-in-out motion-reduce:transition-none"
+            data-te-carousel-item style="backface-visibility: hidden">
+            <img src="img/bodybulding1.jpg" class="block w-full" alt="..." />
+            <div class="absolute  pra  py-5  text-white  ">
+                <h2 class="">let's be the hero in your life !!</h2>
+                <p>Go to the gym and start training, and see the difference that will happen in your body and in <br>
+                    your life. The gym is the
+                    beginning of the path to success , so do not hesitate and start now</p>
+                <button class="btn">learn more</button>
+            </div>
+            <div class="hn"></div>
+
+        </div>
+    </div>
+
+    <!--Carousel controls - prev item-->
+    <!-- <button 
+        class="absolute bottom-0 left-0 top-0 z-[1] flex w-[15%] items-center  justify-center bt border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button" data-te-target="#carouselExampleCaptions" data-te-slide="prev">
+        <span class="inline-block h-8 w-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+            </svg>
+        </span>
+        <span
+            class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Previous</span>
+    </button>
+   Carousel controls - next item-->
+    <!-- <button
+        class="absolute bottom-0 right-0 top-0 z-[1] flex w-[15%]  items-center justify-center border-0 bg-none p-0 text-center text-white opacity-50 transition-opacity duration-150 ease-[cubic-bezier(0.25,0.1,0.25,1.0)] hover:text-white hover:no-underline hover:opacity-90 hover:outline-none focus:text-white focus:no-underline focus:opacity-90 focus:outline-none motion-reduce:transition-none"
+        type="button" data-te-target="#carouselExampleCaptions" data-te-slide="next">
+        <span class="inline-block h-8 w-8">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="h-6 w-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+            </svg>
+        </span>
+        <span
+            class="!absolute !-m-px !h-px !w-px !overflow-hidden !whitespace-nowrap !border-0 !p-0 ![clip:rect(0,0,0,0)]">Next</span>
+    </button> --> 
+</div>
+
+<section class="offer">
+    <h2>Latest offers</h2>
+<div class="container mx-auto rox grid lg:grid-cols-4 md:grid-cols-12 gap-5	 ">
+<div class="col ">
+<img src="img/cardio-offer.jpg" alt="" class="w-full h-full">
+<div class="inf">
+<p>bodybulding1</p>
+<span class="text">150EGP <span class="text-gray-300">/month</span></span>
+
+</div>
+</div>
+<!--  -->
+<div class="col ">
+    <img src="img/bodybulding1.jpg" alt="" class="w-full h-full">
+    <div class="inf">
+        <p>bodybulding1</p>
+        <span class="text">150EGP <span class="text-gray-300">/month</span></span>
+    </div>
+</div>
+<!--  -->
+<div class="col ">
+    <img src="img/kick.jpg" alt="" class="w-full h-full">
+    <div class="inf">
+        <p>bodybulding1</p>
+        <span class="text">150EGP <span class="text-gray-300">/month</span></span>
+     
+    </div>
+</div>
+<div class="col ">
+    <img src="img/cardio-offer.jpg" alt="" class="w-full">
+    <div class="inf">
+        <p>bodybulding1</p>
+        <span class="text">150EGP <span class="text-gray-300">/month</span></span>
+      
+    </div>
+</div>
+</div>
+</section>
+<!--  -->
+<section class="coach">
+<h2>our coach</h2>
+<div class="container mx-auto grid lg:grid-cols-4 md:grid-cols-12 gap-7">
+<div class="card relative">
+<img src="img/coach.png" alt="" >
+<div class="info">
+<p>Mahmoud Elbadry <span class="fa-brands fa-facebook-f"></span></p>
+</div>
+</div>
+<!--  -->
+<div class="card relative">
+    <img src="img/coach.png" alt="" >
+    <div class="info">
+        <p>Mahmoud Elbadry <span class="fa-brands fa-facebook-f"></span></p>
+    </div>
+</div>
+<!--  -->
+<div class="card relative">
+    <img src="img/coach.png" alt="" >
+    <div class="info">
+        <p>Mahmoud Elbadry <span class="fa-brands fa-facebook-f"></span></p>
+    </div>
+</div>
+<!--  -->
+<div class="card relative">
+    <img src="img/coach.png" alt="" >
+    <div class="info">
+        <p>Mahmoud Elbadry <span class="fa-brands fa-facebook-f"></span></p>
+    </div>
+</div>
+
+</div>
+</section>
+<!-- section -->
+<section class="top bg-red-900	">
+<h2>top 3 this month</h2>
+<div class="container mx-auto grid lg:grid-cols-3 md:grid-cols-12 gap-5">
+<div class="card relative">
+    <img src="img/top.png" alt="">
+    <div class="info">
+        <p>topone <span class="fa-brands fa-facebook-f "></span></p>
+    </div>
+</div>
+<div class="card relative">
+    <img src="img/top.png" alt="">
+    <div class="info">
+        <p>topone <span class="fa-brands fa-facebook-f "></span></p>
+    </div>
+</div>
+<div class="card relative">
+    <img src="img/top.png" alt="">
+    <div class="info">
+        <p>topone <span class="fa-brands fa-facebook-f "></span></p>
+    </div>
+</div>
+</div>
+
+
+</section>
+<!-- section -->
+<section class="appo">
+<h2>Appointments</h2>
+<div class="container mx-auto grid lg:grid-cols-3 md:grid-cols-12 gap-7">
+<div class="bo">
+<h3>women Appointments</h3>
+<p class="sa">Saturday - Monday - Wednesday</p>
+<p class="time">2 : -- pm<span>:</span>7 : -- pm</p>
+<p class="sa">Sunday - Tuesday - Thursday</p>
+<p class="time">2 : -- pm<span>:</span>7 : -- pm</p>
+</div>
+<span class="line"></span>
+<div class="mo">
+    <h3>men Appointments</h3>
+    <p class="sa">Saturday - Monday - Wednesday</p>
+    <p class="time">2 : -- pm<span>:</span>7 : -- pm</p>
+    <p class="sa">Sunday - Tuesday - Thursday</p>
+    <p class="time">2 : -- pm<span>:</span>7 : -- pm</p>
+</div>
+</div>
+</section>
+<!-- -->
+<section class="footer ">
+    <div class="container mx-auto  grid lg:grid-cols-3 md:grid-cols-12 gap-8">
+<div class="image">
+<img src="img/logo-removebg.png" alt="">
+<p>Go to the gym and start training, and see the difference that will happen in your body and in
+your life. The gym is the
+beginning of the path to success, so do not hesitate and start now</p>
+</div>
+<div class="explore">
+<h4>explore</h4>
+<div class="ai ">
+<a href=""><i class="fa-solid fa-dumbbell" ></i>Latest offers</a>
+<a href=""><i class="fa-solid fa-users-viewfinder"></i>our coach</a>
+<a href=""><i class="fa-solid fa-ranking-star"></i>top 3</a>
+<a href=""><i class="fa-regular fa-calendar-check"></i>Appointments</a>
+</div>
+</div>
+<div class="contact ">
+<h4>contact us</h4> 
+<div>
+<span><i class="fa-solid fa-location-dot"></i>adress :</span>
+<p>Mosque, Zagazig 2, Al-Sharqia Governorate</p>
+<span><i class="fa-solid fa-phone"></i>call us :</span>
+<p>01272990222</p>
+<span><i class="fa-solid fa-plus"></i>follow us :</span> 
+<div class="flex gap-5 ">
+<a href=""><i class="fa-brands fa-facebook-f" ></i></a>
+<a href=""><i class="fa-brands fa-instagram"></i></a>
+<a href=""><i class="fa-brands fa-tiktok"></i></a>
+</div>
+</div>
+</div>
+
+    </div>
+</section>
+<!--  -->
+<section class="powered">
+    powered by <div><a href="https://www.facebook.com/profile.php?id=100031927055214" target="_blank">Mohamed
+            Hossam</a> - <a href="https://www.facebook.com/Nerdacademeyy" target="_blank">nerd company</a></div>
+</section>
+ 
+<script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/tw-elements.umd.min.js"></script>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
